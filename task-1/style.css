@@ -1,0 +1,119 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styling */
+#hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 50px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features section styling */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column h3 {
+    margin-top: 10px;
+}
+
+.column p {
+    margin-top: 10px;
+}
+
+/* About and Contact sections */
+#about, #contact {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
